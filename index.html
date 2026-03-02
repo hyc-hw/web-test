@@ -4,17 +4,49 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SLARM</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./katex/katex.min.css">
+  <script defer src="./js/scripts.js"></script>
+  <script defer src="./js/fontawesome.all.min.js"></script>
 </head>
 
 <body>
-    <header class="header">
-      <div class="container">
-        <h1 class="title">SLARM: Streaming and Language-Aligned Reconstruction Model for Dynamic Scenes</h1>
-        <p class="authors">Paper ID:  6478</p>
+  <header class="header">
+    <div class="container">
+      <h1 class="title"><span style="color: rgb(90, 197, 174);">SLARM</span>: <span
+          style="color: rgb(75, 226, 143);">Streaming</span> and <span
+          style="color: rgb(182, 247, 32);">Language-Aligned</span> Reconstruction Model for <span
+          style="color: rgb(211, 112, 55);">Dynamic</span> Scenes</h1>
+      <p class="authors">
+        作者 A<sup>1</sup>, 作者 B<sup>2</sup>, 作者 C<sup>1</sup>
+      </p>
+      <p class="affiliations">
+        <sup>1</sup> 华为 <br>
+        <sup>2</sup> xxxx
+      </p>
+      <div class="links-container">
+        <div class="publication-links">
+          <!-- PDF Link. -->
+          <span class="link-block">
+            <a href="https://arxiv.org/abs/2501.00602" class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="fas fa-file-pdf"></i>
+              </span>
+              <span>Paper</span>
+            </a>
+          </span>
+          <!-- Code Link. -->
+          <span class="link-block">
+            <a href="https://github.com/kevinchiu19/SLARM" class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code</span>
+            </a>
+          </span>
+        </div>
       </div>
-    </header>
+  </header>
   
     <main class="container">
       <section id="abstract" class="section-card">
@@ -97,60 +129,60 @@
         <div class="video-slider">
           <!-- page 1 -->
           <div class="slide">
-            <video controls playsinline muted loop class="auto-play-video">
+            <video autoplay controls playsinline muted loop class="auto-play-video-slide">
               <source src="assets/SLARM_offline/scene_id_23_70-86.mp4" type="video/mp4">
             </video>
-            <video controls playsinline muted loop class="auto-play-video">
+            <video autoplay controls playsinline muted loop class="auto-play-video-slide">
               <source src="assets/SLARM_offline/scene_id_80_20-36.mp4" type="video/mp4">
             </video>
           </div>
       
           <!-- page 2 -->
           <div class="slide">
-            <video controls playsinline muted loop class="auto-play-video">
+            <video autoplay controls playsinline muted loop class="auto-play-video-slide">
               <source src="assets/SLARM_offline/scene_id_89_47-63.mp4" type="video/mp4">
             </video>
-            <video controls playsinline muted loop class="auto-play-video">
+            <video autoplay controls playsinline muted loop class="auto-play-video-slide">
               <source src="assets/SLARM_offline/scene_id_223_15-31.mp4" type="video/mp4">
             </video>
           </div>
       
           <!-- page 3 -->
           <div class="slide">
-            <video controls playsinline muted loop class="auto-play-video">
+            <video autoplay controls playsinline muted loop class="auto-play-video-slide">
               <source src="assets/SLARM_offline/scene_id_236_43-59.mp4" type="video/mp4">
             </video>
-            <video controls playsinline muted loop class="auto-play-video">
+            <video autoplay controls playsinline muted loop class="auto-play-video-slide">
               <source src="assets/SLARM_offline/scene_id_336_26-39.mp4" type="video/mp4">
             </video>
           </div>
       
           <!-- page 4 -->
           <div class="slide">
-            <video controls playsinline muted loop class="auto-play-video">
+            <video autoplay controls playsinline muted loop class="auto-play-video-slide">
               <source src="assets/SLARM_offline/scene_id_365_37-53.mp4" type="video/mp4"> 
             </video>
-            <video controls playsinline muted loop class="auto-play-video">
+            <video autoplay controls playsinline muted loop class="auto-play-video-slide">
               <source src="assets/SLARM_offline/scene_id_367_10-26.mp4" type="video/mp4">
             </video>
           </div>
       
           <!-- page 5 -->
           <div class="slide">
-            <video controls playsinline muted loop class="auto-play-video">
+            <video autoplay controls playsinline muted loop class="auto-play-video-slide">
               <source src="assets/SLARM_offline/scene_id_407_86-102.mp4" type="video/mp4">
             </video>
-            <video controls playsinline muted loop class="auto-play-video">
+            <video autoplay controls playsinline muted loop class="auto-play-video-slide">
               <source src="assets/SLARM_offline/scene_id_473_13-29.mp4" type="video/mp4">
             </video>
           </div>
 
           <!-- page 6 -->
           <div class="slide">
-            <video controls playsinline muted loop class="auto-play-video">
+            <video autoplay controls playsinline muted loop class="auto-play-video-slide">
               <source src="assets/SLARM_offline/scene_id_563_22-38.mp4" type="video/mp4">
             </video>
-            <video controls playsinline muted loop class="auto-play-video">
+            <video autoplay controls playsinline muted loop class="auto-play-video-slide">
               <source src="assets/SLARM_offline/scene_id_710_53-69.mp4" type="video/mp4">
             </video>
           </div>
@@ -178,60 +210,60 @@
       <div class="video-slider">   
         <!-- page 1 -->
         <div class="slide">
-          <video controls playsinline muted loop class="auto-play-video">
+          <video autoplay controls playsinline muted loop class="auto-play-video-slide">
             <source src="assets/SLARM_online/scene_id_23_70-86.mp4" type="video/mp4">
           </video>
-          <video controls playsinline muted loop class="auto-play-video">
+          <video autoplay controls playsinline muted loop class="auto-play-video-slide">
             <source src="assets/SLARM_online/scene_id_80_20-36.mp4" type="video/mp4">
           </video>
         </div>
     
         <!-- page 2 -->
         <div class="slide">
-          <video controls playsinline muted loop class="auto-play-video">
+          <video autoplay controls playsinline muted loop class="auto-play-video-slide">
             <source src="assets/SLARM_online/scene_id_89_47-63.mp4" type="video/mp4">
           </video>
-          <video controls playsinline muted loop class="auto-play-video">
+          <video autoplay controls playsinline muted loop class="auto-play-video-slide">
             <source src="assets/SLARM_online/scene_id_223_15-31.mp4" type="video/mp4">
           </video>
         </div>
     
         <!-- page 3 -->
         <div class="slide">
-          <video controls playsinline muted loop class="auto-play-video">
+          <video autoplay controls playsinline muted loop class="auto-play-video-slide">
             <source src="assets/SLARM_online/scene_id_236_43-59.mp4" type="video/mp4">
           </video>
-          <video controls playsinline muted loop class="auto-play-video">
+          <video autoplay controls playsinline muted loop class="auto-play-video-slide">
             <source src="assets/SLARM_online/scene_id_336_26-39.mp4" type="video/mp4">
           </video>
         </div>
     
         <!-- page 4 -->
         <div class="slide">
-          <video controls playsinline muted loop class="auto-play-video">
+          <video autoplay controls playsinline muted loop class="auto-play-video-slide">
             <source src="assets/SLARM_online/scene_id_365_37-53.mp4" type="video/mp4"> 
           </video>
-          <video controls playsinline muted loop class="auto-play-video">
+          <video autoplay controls playsinline muted loop class="auto-play-video-slide">
             <source src="assets/SLARM_online/scene_id_367_10-26.mp4" type="video/mp4">
           </video>
         </div>
     
         <!-- page 5 -->
         <div class="slide">
-          <video controls playsinline muted loop class="auto-play-video">
+          <video autoplay controls playsinline muted loop class="auto-play-video-slide">
             <source src="assets/SLARM_online/scene_id_407_86-102.mp4" type="video/mp4">
           </video>
-          <video controls playsinline muted loop class="auto-play-video">
+          <video autoplay controls playsinline muted loop class="auto-play-video-slide">
             <source src="assets/SLARM_online/scene_id_473_13-29.mp4" type="video/mp4">
           </video>
         </div>
 
         <!-- page 6 -->
         <div class="slide">
-          <video controls playsinline muted loop class="auto-play-video">
+          <video autoplay controls playsinline muted loop class="auto-play-video-slide">
             <source src="assets/SLARM_online/scene_id_563_22-38.mp4" type="video/mp4">
           </video>
-          <video controls playsinline muted loop class="auto-play-video">
+          <video autoplay controls playsinline muted loop class="auto-play-video-slide">
             <source src="assets/SLARM_online/scene_id_710_53-69.mp4" type="video/mp4">
           </video>
         </div>
@@ -251,13 +283,29 @@
         <button class="next-btn" aria-label="next page">&gt;</button>
       </div>
     </section>
+
+    <section id="bibtex" class="section-card">
+      <h2>BibTeX</h2>
+      <pre id="bibtex-text">@article{your2025project,
+  author = {A, B, C},
+  title = {SLARM: Streaming and Language-Aligned Reconstruction Model for Dynamic Scenes},
+  journal = {arXiv preprint arXiv:xxxx.xxxx},
+  year = {2025}
+}</pre>
+      <button id="copy-bib">Copy BibTeX</button>
+      <span id="copy-msg" class="copy-msg">✔</span>
+    </section>
+
+    <section id="acknowledgement" class="section-card">
+      <h2>Acknowledgements</h2>
+      <p>We appreciate the code of the Storm open source project.</p>
+    </section>
   
     <footer class="footer">
       <div class="container">
         <p>CVPR&nbsp;2026&nbsp;&nbsp;&nbsp;&nbsp;SLARM</p>
       </div>
-    </footer> 
-    <script src="scripts.js"></script>
+    </footer>     
 
     <!-- loading KaTeX -->
     <script src="./katex/katex.min.js"></script>
